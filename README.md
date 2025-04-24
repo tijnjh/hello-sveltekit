@@ -1,6 +1,13 @@
-how to use
+## How to use
 
-1. clone this repo
-2. remove the .git dir: `rm -rf .git/`
-3. `npm install`
-4. `npm run dev`
+```sh
+git clone https://github.com/tijnjh/hello-sveltekit.git
+
+cd hello-sveltekit
+
+rm -rf .git/
+
+npm install
+
+npm run dev --open
+```
