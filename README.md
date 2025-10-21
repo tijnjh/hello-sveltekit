@@ -1,11 +1,11 @@
-## How to use
+most minimal sveltekit setup
 
 ```sh
-git clone https://github.com/tijnjh/hello-sveltekit.git
+mkdir my-sveltekit-app
 
-cd hello-sveltekit
+cd my-sveltekit-app
 
-rm -rf .git/
+npx degit tijnjh/hello-sveltekit
 
 npm install
 
