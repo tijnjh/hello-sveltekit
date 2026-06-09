@@ -4,11 +4,14 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite dev",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''"
   },
   "devDependencies": {
+    "@sveltejs/adapter-node": "latest",
     "@sveltejs/kit": "latest",
     "svelte": "latest",
+    "typescript": "latest",
     "vite": "latest"
   }
 }
